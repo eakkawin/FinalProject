@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="model.Device" table ="device">
+        <meta attribute="class-description">
+            This class contains the device detail.
+        </meta>
+        <id name="deviceId" type="int" column="device_id">
+            <generator class="native"/>
+        </id>
+        <property name="deviceName" column="device_name" type="string"/>
+        <property name="status" column="status" type="string"/>
+        <property name="macAddress" column="mac_address" type="string"/>
+        <property name="roomId" column="room_id" type="int"/>
+        <property name="cmd" column="CMD" type="string"/>
+    </class>
+
+
+</hibernate-mapping>

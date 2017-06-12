@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="model.Transaction" table ="log">
+        <meta attribute="class-description">
+            This class contains the device detail.
+        </meta>
+        <id name="logId" type="int" column="log_id">
+            <generator class="native"/>
+        </id>
+        <property name="desc" column="log_desc" type="string"/>
+        <property name="deviceId" column="device_id" type="int"/>
+        <property name="dateTime" column="log_time" type="date"/>
+   
+    </class>
+
+
+</hibernate-mapping>

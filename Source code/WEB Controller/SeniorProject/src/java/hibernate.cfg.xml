@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+      <property name="hibernate.dialect">
+            org.hibernate.dialect.MySQLDialect
+        </property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+ <property name="hibernate.connection.url">jdbc:mysql://momokupp.dyndns.org:3306/senior?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">project</property>
+    <property name="hibernate.connection.password">P@ssw0rdA1
+</property>
+     <mapping class="model.User" resource="User.hbm.xml"></mapping>
+     <mapping class="model.Device" resource="Device.hbm.xml"></mapping>
+       <mapping class="model.Room" resource="Room.hbm.xml"></mapping>
+        <mapping class="model.Transaction" resource="Transaction.hbm.xml"></mapping>
+  </session-factory>
+</hibernate-configuration>

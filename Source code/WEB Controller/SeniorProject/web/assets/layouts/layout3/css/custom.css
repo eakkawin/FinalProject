@@ -1,0 +1,196 @@
+/* here you can put your own css to customize and override the theme */
+.status{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.title_device{
+    display: block;
+    width: 100%;
+    float: left;
+    margin-left: 14px;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.block-white-about{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 0px;
+    /*border-radius: 4px;*/
+    box-shadow:0 2px 3px 2px rgba(0,0,0,.03);
+    margin-bottom: 20px;
+}
+.block-white-add{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 20px;
+    width: 25%;
+    /*border-radius: 4px;*/
+    box-shadow:0 2px 3px 2px rgba(0,0,0,.03);
+    margin-bottom: 20px;
+}
+.block-white-home{
+    margin-top: 20px;
+    background-color: white;
+    padding: 40px 40px;
+    width: 100%;
+    /*border-radius: 4px;*/
+    box-shadow:0 2px 3px 2px rgba(0,0,0,.03);
+    margin-bottom: 20px;
+    height: 300px
+}
+.title-text{
+    font-size: 2em;
+}
+.welcome-text{
+    font-size: 2em;
+    font-weight: 100;
+    color: #23527c;
+    margin-left: 30px;
+}
+.block-white-log{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 20px;
+    /*border-radius: 4px;*/
+    box-shadow:0 2px 3px 2px rgba(0,0,0,.03);
+    margin-bottom: 20px;
+}
+.block-white-manage{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 20px;
+    /*border-radius: 4px;*/
+    box-shadow:0 2px 3px 2px rgba(0,0,0,.03);
+    margin-bottom: 20px;
+}
+.block-white-status{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 20px;
+    /*border-radius: 4px;*/
+    box-shadow:0 2px 3px 2px rgba(0,0,0,.03);
+    margin-bottom: 20px;
+    height: 800px;
+}
+.about{
+    height: 220px;
+}
+.log{
+    height: 380px;
+}
+.table-line{
+    border:1px #ddd solid;
+    padding: 10px;
+}
+.scroll-block{
+    height: 230px;
+    float: left;
+    overflow-y: scroll;
+}
+.margin-ph{
+    margin-top: 126px;
+}
+.fix-header{
+    position: fixed;
+    z-index: 2;
+    padding: 0px 135px;
+    background-color: white;
+}
+.fix-menu{
+    margin-top: 75px;
+    z-index: 1;
+    padding: 0px 135px;
+    position: fixed;
+}
+.device-block{
+    height: 600px;
+}
+.border-box{
+    width: 100%;
+    border: 1px #ddd solid;
+}
+.box{
+    width: 100%;
+    display: block;
+}
+.show-left-arrow{
+    
+    text-align: right;
+}
+.proj-dropbtn{
+    margin-left: 85px
+}
+.pwb-dropbtn{
+    margin-left: 80px
+}
+.pc-dropbtn{
+    margin-left: 125px
+}
+.air-dropbtn{
+    margin-left: 62px;
+}
+.light-dropbtn{
+    margin-left: 115px;
+}
+.show-left-arrow::after { 
+    content: "\25B8";
+}
+.margin-left-20{
+    margin-left: 20px;
+}
+.margin-left-5{
+    margin-left: 5px;
+}
+.button-device{
+    background-color: transparent;
+    padding: 15px 20px;
+    text-align: left;
+    outline: none;
+    color: #337ab7;
+}
+.button-device:hover{
+    background-color: #EEEEEE;
+    color: #23527c;
+}
+.img-device:hover{
+    color: #23527c;
+}
+.button-device:focus{
+    background-color: #EEEEEE;
+
+}
+.border-left-box{
+    border-left: 1px #ddd solid;
+}
+.center-title{
+    text-align: center;
+    width: 100%;
+    color: #337ab7!important;
+}
+.full-btn{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+    color:#6f6f6f;
+    font-weight:300;
+    line-height: 18px;
+    white-space:nowrap;
+    
+}
+.full-btn:hover{
+    color: #262626;
+    background-color: #F6F6F6;
+}
+.subsmenu-onoff{
+    padding: 20px!important;
+}
+.subsmenu-onoff:after{
+    padding: 15px!important;
+}
+.user-menu{
+    padding: 20px;
+}
